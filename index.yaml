@@ -1,48 +1,23 @@
 apiVersion: v1
 entries:
-  gbapp:
-  - apiVersion: v1
-    created: "2020-11-19T10:58:56.638611+01:00"
-    description: Guestbook Application kubernetes sample
-    digest: 3d23af07ba8970d49a156a39382ba72de10d4b39bd9a123e51b18636156582dd
-    name: gbapp
-    urls:
-    - https://davidmccarty.github.io/guestbook-helm/gbapp-0.1.0.tgz
-    version: 0.1.0
-  gbf:
-  - apiVersion: v1
-    created: "2020-11-19T10:58:56.639287+01:00"
-    description: A Helm chart for Kubernetes
-    digest: a1d9395ea7e92314915b03bbaf035812c972ff86986eced86004a77607e2d583
-    name: gbf
-    urls:
-    - https://davidmccarty.github.io/guestbook-helm/gbf-0.1.0.tgz
-    version: 0.1.0
-  gbrm:
-  - apiVersion: v1
-    created: "2020-11-19T10:58:56.639998+01:00"
-    description: A Helm chart for Kubernetes
-    digest: f798567b28eb29327f6616684a1fb3b85e3a8ace098ceadd84726aba7ec48c13
-    name: gbrm
-    urls:
-    - https://davidmccarty.github.io/guestbook-helm/gbrm-0.1.0.tgz
-    version: 0.1.0
-  gbrs:
-  - apiVersion: v1
-    created: "2020-11-19T10:58:56.640478+01:00"
-    description: A Helm chart for Kubernetes
-    digest: 3ca3bb6daf512d5019530f28e328e163708c777811f5ebfa28ab8cd4c723d422
-    name: gbrs
-    urls:
-    - https://davidmccarty.github.io/guestbook-helm/gbrs-0.1.0.tgz
-    version: 0.1.0
   guestbook:
   - apiVersion: v1
-    created: "2020-11-19T10:58:56.641403+01:00"
+    created: "2020-11-21T20:22:46.364274+01:00"
     description: A Helm chart to deploy Guestbook three tier web application.
-    digest: 57f16e5bbf93746e43f4b1b8066db4b37206334a76ec9de3a80f5f3572139cea
+    digest: b7dccaac02c9cc68139a7c5801fd379a7fb0bc6de5707c7894a435f8b1db2021
     name: guestbook
     urls:
     - https://davidmccarty.github.io/guestbook-helm/guestbook-1.0.0.tgz
     version: 1.0.0
-generated: "2020-11-19T10:58:56.635003+01:00"
+  guestbook-app:
+  - apiVersion: v2
+    appVersion: "1"
+    created: "2020-11-21T20:22:46.364752+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 9284ae7d7a51d944eeddce8b5727306c822bf74962ee500ee622200ebf5997dd
+    name: guestbook-app
+    type: application
+    urls:
+    - https://davidmccarty.github.io/guestbook-helm/guestbook-app-1.0.0.tgz
+    version: 1.0.0
+generated: "2020-11-21T20:22:46.360659+01:00"
