@@ -2,21 +2,21 @@ apiVersion: v1
 entries:
   guestbook:
   - apiVersion: v1
-    created: "2020-11-22T10:19:48.719454+01:00"
+    created: 2020-11-22T14:07:40.584691+01:00
     description: A Helm chart to deploy Guestbook three tier web application.
-    digest: c96d4f5c1e43adb459ca6748a24dcff2e4628388a807d8eb432b214e6beeb315
+    digest: 20d52d4c17426a5552b5c5da7a8e94d28c74e063d71487793ec9f97c9334e05e
     name: guestbook
     urls:
     - https://davidmccarty.github.io/guestbook-helm/guestbook-1.0.0.tgz
     version: 1.0.0
-  guestbook-app:
+  guestbook-mcm:
   - apiVersion: v1
-    created: "2020-11-22T10:19:48.721393+01:00"
+    created: 2020-11-22T14:07:40.584983+01:00
     description: A Helm chart to deploy Guestbook three tier web application into
       MCM.
-    digest: ec11dbd8477cc4f19c4d612a6cc8e39c52f794577d29e80ab916502cb964f5dd
-    name: guestbook-app
+    digest: fe2eef517ce63a967f6c0cac434ef5f3a85bebd092bec835b409d59e4e88f7c0
+    name: guestbook-mcm
     urls:
-    - https://davidmccarty.github.io/guestbook-helm/guestbook-app-1.0.0.tgz
+    - https://davidmccarty.github.io/guestbook-helm/guestbook-mcm-1.0.0.tgz
     version: 1.0.0
-generated: "2020-11-22T10:19:48.71847+01:00"
+generated: 2020-11-22T14:07:40.584053+01:00
